@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- favicon -->
+  <link rel="sh ortcut icon" href="./images/icons8-cd-48.png" type="image/x-icon">
+  <title>rating-component</title>
+  <!-- normalize css -->
+  <link rel="stylesheet" href="./styles/normalize.css">
+  <!-- custom css -->
+  <link rel="stylesheet" href="./styles/style.css">
+
+</head>
+<body>
+  <section class="card" id="show">
+    <div class="img-container">
+      <img src="./images/icon-star.png" alt="star" class="icon" />
+    </div>
+    <h1 class="title">How did we do?</h1>
+    <p class="card-para">
+      Please let us know how we did with your support request. All feedback is
+      appreciated to help us improve our offering!
+    </p>
+    <div class="rating-btn-container">
+      <input type="button" name="rating" class="rating-input" value="1" />
+      <input type="button" name="rating" class="rating-input" value="2" />
+      <input type="button" name="rating" class="rating-input" value="3" />
+      <input type="button" name="rating" class="rating-input" value="4" />
+      <input type="button" name="rating" class="rating-input" value="5" />
+    </div>
+
+    <button class="btn-submit" id="btn-submit">SUBMIT</button>
+  </section>
+
+  <section class="hidden-card hidden" id="hidden-card">
+    <div class="hidden-img">
+      <img
+        src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqiTwd2qa7quUYjU6PABL0Z458ippL5s2IQg&usqp=CAU"
+        alt="thank-you"
+        class="img"
+      />
+    </div>
+    <p class="rating-output" id="output">You selected 4 out of 5</p>
+    <h1 class="thanku-msg">Thank You!</h1>
+    <p class="hidden-para">
+      We appreciate you taking the time to give a rating. If you ever need
+      more support, don’t hesitate to get in touch!
+    </p>
+    <button class="btn-ok" id="btnok">OK</button>
+  </section>
+
+
+
+
+
+  <!-- custom script -->
+  <script src="./scripts/script.js"></script>
+  
+</body>
+</html>
